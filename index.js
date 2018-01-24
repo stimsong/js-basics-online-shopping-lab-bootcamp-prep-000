@@ -48,6 +48,7 @@ function total() {
  var sum = 0;
  for( var i = 0; i<cart.length; i++) {
    sum += cart[i][Object.keys(cart[i])];
+ }
  return sum;
  }
 }
